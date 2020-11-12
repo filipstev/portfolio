@@ -1,0 +1,83 @@
+@import '../abstracts/variables';
+
+.form {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: $color-grey-dark;
+  font-weight: 500;
+
+  &__container {
+    padding: 8rem 0;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  &__input-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+
+    &-1 {
+      grid-row: 1/1;
+    }
+
+    &-2 {
+      grid-row: 1/2;
+    }
+
+    &-3 {
+      grid-column: 1/3;
+      margin-top: -9rem;
+    }
+  }
+
+  &__name-label {
+    display: block;
+    transform: translateY(-1.2rem);
+  }
+
+  &__name-input {
+    outline: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    background-color: #f8f9fa;
+  }
+
+  &__email-label {
+    display: block;
+    transform: translateY(-1.2rem);
+  }
+
+  &__email-input {
+    outline: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    background-color: #f8f9fa;
+  }
+
+  &__text-label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  &__text-text {
+    outline: none;
+    width: 100%;
+    height: 25rem;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    font-size: 2rem;
+    padding: 1.3rem;
+    background-color: #f8f9fa;
+    resize: none;
+  }
+}

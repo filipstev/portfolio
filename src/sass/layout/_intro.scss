@@ -1,0 +1,14 @@
+@import '../abstracts/variables';
+
+.section-intro {
+  background-color: $color-black-light;
+  height: 65vh;
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+
+  &__content {
+    width: 70%;
+    margin: 0 auto;
+    animation: moveInBottom 1s;
+  }
+}

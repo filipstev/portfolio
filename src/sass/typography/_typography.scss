@@ -1,0 +1,50 @@
+@import '../abstracts/variables';
+
+.heading-primary {
+  font-size: 8rem;
+  font-weight: 400;
+  color: $color-white;
+  text-align: center;
+  margin-bottom: 3rem;
+
+  &-1 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+}
+
+.heading-secondary {
+  font-size: 5.2rem;
+  color: $color-white;
+  font-weight: 400;
+  margin-bottom: 3rem;
+
+  &-1 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $color-grey-dark;
+    border-bottom: 4px solid #f6f6f6;
+    padding-bottom: 1.5rem;
+  }
+
+  &-2 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+}
+
+.heading-tertiary {
+  font-size: 3.4rem;
+  font-weight: 300;
+  color: $color-grey-light;
+  text-align: center;
+
+  &-1 {
+    font-size: 3.4rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+}

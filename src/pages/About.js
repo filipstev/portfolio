@@ -65,9 +65,9 @@ const About = () => {
         <div className="connect">
           <h2 className="heading-secondary">Let's work together.</h2>
           <p className="connect__p">Have a project you'd like to discuss?</p>
-          <a href="/contact" className="btn btn-cta">
+          <Link to="/contact" className="btn btn-cta">
             Get in touch
-          </a>
+          </Link>
         </div>
 
         <div className="smedia">

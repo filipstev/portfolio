@@ -10,6 +10,7 @@ import '../sass/layout/_intro.scss'
 import '../sass/layout/_featured.scss'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
   return (
@@ -193,9 +194,9 @@ const Projects = () => {
         <div className="connect">
           <h2 className="heading-secondary">Let's work together.</h2>
           <p className="connect__p">Have a project you'd like to discuss?</p>
-          <a href="/contact" className="btn btn-cta">
+          <Link to="/contact" className="btn btn-cta">
             Get in touch
-          </a>
+          </Link>
         </div>
 
         <div className="smedia">

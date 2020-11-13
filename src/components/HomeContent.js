@@ -82,7 +82,7 @@ const Home = () => {
         </div>
 
         <div className="btn-container">
-          <Link to="/projects" className="btn-submit">
+          <Link to="/portfolio/#/projects" className="btn-submit">
             View Projects
           </Link>
         </div>
@@ -92,7 +92,7 @@ const Home = () => {
         <div className="connect">
           <h2 className="heading-secondary">Let's work together.</h2>
           <p className="connect__p">Have a project you'd like to discuss?</p>
-          <Link to="/contact" className="btn btn-cta">
+          <Link to="/portfolio/#/contact" className="btn btn-cta">
             Get in touch
           </Link>
         </div>

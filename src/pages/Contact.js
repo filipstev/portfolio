@@ -7,7 +7,7 @@ const Contact = () => {
   const clearForm = () => {
     setTimeout(() => {
       document.getElementById('form').reset()
-    }, 810)
+    }, 700)
   }
 
   return (

@@ -5,6 +5,7 @@ import '../sass/layout/_intro.scss'
 import '../sass/layout/_about.scss'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (

@@ -7,6 +7,7 @@ import '../sass/components/_button.scss'
 import '../sass/typography/_animations.scss'
 import '../sass/typography/_typography.scss'
 import nexter from '../assets/Images/nexter.png'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (

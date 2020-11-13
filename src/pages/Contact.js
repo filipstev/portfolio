@@ -4,6 +4,12 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 const Contact = () => {
+  const clearForm = () => {
+    setTimeout(() => {
+      document.getElementById('form').reset()
+    }, 810)
+  }
+
   return (
     <React.Fragment>
       <Header />
@@ -23,6 +29,8 @@ const Contact = () => {
             // action="https://formspree.io/f/xnqozpwj"
             action="https://getform.io/f/36c93eb1-d477-44d4-b181-b803b4f88bfa"
             method="POST"
+            id="form"
+            onSubmit={clearForm}
             className="form"
           >
             <div className="form__input-container">

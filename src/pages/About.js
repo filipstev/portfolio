@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import laptop from '../assets/Images/laptop.jpg'
 import '../sass/layout/_cta.scss'
 import '../sass/layout/_intro.scss'
@@ -8,6 +8,7 @@ import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 
 const About = () => {
+  useEffect(() => window.scrollTo(0, 0), [])
   return (
     <React.Fragment>
       <Header />
@@ -66,7 +67,7 @@ const About = () => {
         <div className="connect">
           <h2 className="heading-secondary">Let's work together.</h2>
           <p className="connect__p">Have a project you'd like to discuss?</p>
-          <Link to="/portfolio/#/contact" className="btn btn-cta">
+          <Link to="/contact" className="btn btn-cta">
             Get in touch
           </Link>
         </div>

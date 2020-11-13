@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../sass/layout/_contact.scss'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -10,6 +10,8 @@ const Contact = () => {
       document.getElementById('form').reset()
     }, 700)
   }
+
+  useEffect(() => window.scrollTo(0, 0), [])
 
   return (
     <React.Fragment>

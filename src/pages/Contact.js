@@ -2,6 +2,7 @@ import React from 'react'
 import '../sass/layout/_contact.scss'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { Redirect } from 'react-router-dom'
 
 const Contact = () => {
   const clearForm = () => {

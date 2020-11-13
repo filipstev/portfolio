@@ -8,7 +8,7 @@ import Projects from './pages/Projects'
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename="/">
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />

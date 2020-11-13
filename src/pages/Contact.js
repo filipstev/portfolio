@@ -19,7 +19,12 @@ const Contact = () => {
 
       <section className="section-contact">
         <div className="form__container">
-          <form action="/send" method="POST" className="form">
+          <form
+            // action="https://formspree.io/f/xnqozpwj"
+            action="https://getform.io/f/36c93eb1-d477-44d4-b181-b803b4f88bfa"
+            method="POST"
+            className="form"
+          >
             <div className="form__input-container">
               <div className="form__input-container-1">
                 <label for="name" className="form__name-label">
